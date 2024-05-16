@@ -1,0 +1,35 @@
+2024-05-11T19:23:18.086586-0300 INFO Este é um log de informação. exemplo.py
+2024-05-11T19:23:18.086586-0300 ERROR Este é um log de erro. exemplo.py
+2024-05-13T20:12:57.408499-0300 INFO Este é um log de informação. exemplo.py
+2024-05-13T20:12:57.408499-0300 ERROR Este é um log de erro. exemplo.py
+2024-05-13T20:12:57.422287-0300 ERROR Uma exceção foi capturada exemplo.py
+Traceback (most recent call last):
+
+> File "C:\Users\thiag\jornada_de_dados\bootcamp\aula_9\exemplo.py", line 36, in <module>
+    minha_funcao()
+    └ <function minha_funcao at 0x0000022245A6DE40>
+
+  File "C:\Users\thiag\jornada_de_dados\bootcamp\aula_9\exemplo.py", line 33, in minha_funcao
+    raise ValueError("Um erro aconteceu!")
+
+ValueError: Um erro aconteceu!
+2024-05-13T20:52:58.433312-0300 INFO Chamando função 'soma' com args (5, 3) e kwargs {} exemplo.py
+2024-05-13T20:52:58.433312-0300 INFO Função 'soma' retornou 8 exemplo.py
+2024-05-13T20:52:58.433312-0300 INFO Chamando função 'falha' com args () e kwargs {} exemplo.py
+2024-05-13T20:52:58.433312-0300 ERROR Exceção capturada em 'falha': Um erro intencional exemplo.py
+Traceback (most recent call last):
+
+  File "C:\Users\thiag\jornada_de_dados\bootcamp\aula_9\exemplo.py", line 44, in <module>
+    falha()  # Isso irá logar a chamada e a exceção
+    └ <function falha at 0x0000016720246700>
+
+> File "C:\Users\thiag\jornada_de_dados\bootcamp\aula_9\exemplo.py", line 24, in wrapper
+    result = func(*args, **kwargs)
+             │     │       └ {}
+             │     └ ()
+             └ <function falha at 0x0000016720246660>
+
+  File "C:\Users\thiag\jornada_de_dados\bootcamp\aula_9\exemplo.py", line 39, in falha
+    raise ValueError("Um erro intencional")
+
+ValueError: Um erro intencional

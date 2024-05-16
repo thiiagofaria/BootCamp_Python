@@ -1,0 +1,18 @@
+2024-05-11 19:18:10.465 | INFO     | __main__:<module>:10 - Essa mensagem será salva no arquivo
+2024-05-11 19:23:18.086 | INFO     | __main__:<module>:11 - Essa mensagem será salva no arquivo
+2024-05-11 19:23:18.086 | INFO     | __main__:<module>:28 - Este é um log de informação.
+2024-05-11 19:23:18.086 | ERROR    | __main__:<module>:29 - Este é um log de erro.
+2024-05-13 20:12:57.408 | INFO     | __main__:<module>:11 - Essa mensagem será salva no arquivo
+2024-05-13 20:12:57.408 | INFO     | __main__:<module>:28 - Este é um log de informação.
+2024-05-13 20:12:57.408 | ERROR    | __main__:<module>:29 - Este é um log de erro.
+2024-05-13 20:12:57.422 | ERROR    | __main__:<module>:38 - Uma exceção foi capturada
+Traceback (most recent call last):
+
+> File "C:\Users\thiag\jornada_de_dados\bootcamp\aula_9\exemplo.py", line 36, in <module>
+    minha_funcao()
+    └ <function minha_funcao at 0x0000022245A6DE40>
+
+  File "C:\Users\thiag\jornada_de_dados\bootcamp\aula_9\exemplo.py", line 33, in minha_funcao
+    raise ValueError("Um erro aconteceu!")
+
+ValueError: Um erro aconteceu!

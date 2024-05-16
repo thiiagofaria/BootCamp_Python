@@ -13,11 +13,52 @@
         - Números de Ponto Flutuante (float)
         - Strings (str)
         - Booleanos (bool)
-    - TypeError: Um exemplo clássico é tentar utilizar a função len() com um inteiro, o que resulta em TypeError, pois len() espera um objeto iterável, como uma string, lista, ou tupla, não um inteiro.
-    - Type Check: Verificação de tipo (type check) é o processo de verificar o tipo de uma variável. Isso pode ser útil para garantir que operações ou funções sejam aplicadas apenas a tipos de dados compatíveis, evitando erros em tempo de execução.
-    - Type Conversion: Conversão de tipo (type conversion), também conhecida como casting, é o processo de converter o valor de uma variável de um tipo para outro. Python oferece várias funções integradas para realizar conversões explícitas de tipo, como int(), float(), str(), etc.
-    - try-except: A estrutura try-except é usada para tratamento de exceções em Python. Uma exceção é um erro que ocorre durante a execução do programa e que, se não tratado, interrompe o fluxo normal do programa e termina sua execução. O tratamento de exceções permite que o programa lide com erros de maneira elegante, permitindo que continue a execução ou falhe de forma controlada.
-        - try: Este bloco é o primeiro na estrutura de tratamento de exceções. Python tenta executar o código dentro deste bloco.
-        - except: Se uma exceção ocorrer no bloco try, a execução imediatamente salta para o bloco except. Você pode especificar tipos de exceção específicos para capturar e tratar apenas essas exceções. Se nenhum tipo de exceção for especificado, ele captura todas as exceções.
+    - TypeError
+    - Type Check
+    - Type Conversion
+    - try-except
+    - IF
+    - Desafio Proposto
 
+- Aula 3
+    - DEBUG
+    - IF
+    - FOR
+    - WHILE
+    - LISTAS
+    - DICIONÁRIOS
+    - Desafio
 
+- Aula 4
+    - Type hint
+    - Listas e Dicionários
+    - Leitura de arquivos
+    - Funções
+    - Desafio
+
+- Aula 5
+    - Leitura 1 bilão de linhas
+    - Projeto e desafio
+
+- Aula 6
+    - Revisão
+
+- Aula 7
+    - Definição função
+    - Nomes funções
+    - Parâmetros e Arguemtnos
+    - Palavras chave
+    - Chamando Funções
+    - Projeto / Desafio
+
+- Aula 8
+    - Logging
+    - Logguro
+    - Decorador
+    - Projeto / Desafio
+
+- Aula 9
+    - Logging
+    - Logguro
+    - Decorador
+    - Projeto / Desafio

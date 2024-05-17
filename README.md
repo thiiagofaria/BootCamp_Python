@@ -71,4 +71,8 @@
         - Básico classe x função
         - Encapsulamento
         - Herança
-        
+
+- Aula 12
+    - OOP
+        - Exemplo code classe x função simples
+

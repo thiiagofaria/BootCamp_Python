@@ -62,3 +62,13 @@
     - Logguro
     - Decorador
     - Projeto / Desafio
+
+- Aula 10
+    - Revisão
+
+- Aula 11
+    - OOP
+        - Básico classe x função
+        - Encapsulamento
+        - Herança
+        

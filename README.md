@@ -76,3 +76,8 @@
     - OOP
         - Exemplo code classe x função simples
 
+- Aula 13
+    - OOP
+        - Exemplo de aplicação com classes e utilização de lib ABC padronização classes conforme PEP 3119, para leitura de uma pasta e verificar se há novos arquivos e salvar em um dataframe
+        
+

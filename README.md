@@ -83,3 +83,14 @@
 - Aula 15
     - OOP
         - Exemplo de classe utilizando fastapi e faker
+        
+- Aula 16
+    - Introdução ORM SQL Model
+
+- Aula 17
+    - SQLALchemy: conjunto de ferramentas para manipular SQL em Python
+    - Pyenv local 3.12.1
+    - Poetry init (criar ambiente virtual)
+    - poetry shell
+    - poetry env use 3.12.1
+    - 

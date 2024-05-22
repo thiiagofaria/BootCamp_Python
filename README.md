@@ -93,4 +93,11 @@
     - Poetry init (criar ambiente virtual)
     - poetry shell
     - poetry env use 3.12.1
-    - 
+
+- Aula 18
+    - API (rápida explicação)
+    - Request
+    - Pydantic
+    - MVC (model (banco de dados), view(visualização, schema e forma de tráfego), controller(regra negócio))
+    - Request API pokemon e salvando em DB
+

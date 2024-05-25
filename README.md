@@ -101,3 +101,10 @@
     - MVC (model (banco de dados), view(visualização, schema e forma de tráfego), controller(regra negócio))
     - Request API pokemon e salvando em DB
 
+- Aula 19
+    - Porque aprender API?
+    - Uvicorn = servidor
+
+- Aula 20
+    - Aplicação CRUD do zero
+    

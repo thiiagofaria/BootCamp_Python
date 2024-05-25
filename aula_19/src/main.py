@@ -9,6 +9,10 @@ app = FastAPI()
 
 models.Base.metadata.create_all(bind=database.engine)
 
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+
 @app.post("/items/", response_model=Item)
 def create_item(item: ItemCreate, db: Session = Depends(database.get_db)):
     db_item = models.Item(**item.dict())
